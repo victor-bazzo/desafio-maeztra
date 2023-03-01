@@ -1,0 +1,202 @@
+.topbar {
+    background: #353535;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+
+    @media (max-width: 1024px) {
+        font-size: 10px;
+    }
+}
+
+.header {
+    &-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto;
+        // max-width: 1600px;
+        height: 88px;
+        box-shadow: 0px 4px 6px RGB(0 0 0 / 0.08);
+    }
+
+    .search {
+        position: relative;
+        &-input {
+            width: 672px;
+            height: 40px;
+            border-radius: 10px;
+            background: #EFEFEF;
+            border: none;
+            outline: none;
+            padding-left: 24px;
+            &:focus {
+                border: 1px solid #FAA500;
+            }
+        }
+        &-button {
+            width: 119px;
+            height: 40px;
+            background: #FAA500;
+            color: #fff;
+            font-size: 14px;
+            border-radius: 8px;
+            position: absolute;
+            right: 0;
+            outline: none;
+            border: none;
+            transition: ease-out .3s;
+            cursor: pointer;
+            top: 50%;
+            transform: translateY(-50%);
+            &:hover {
+                background: #fff;
+                color: #FAA500;
+                border: 1px solid #FAA500;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+
+    .search-input::placeholder {
+        color: #353535;
+        font-size: 12px;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    .account {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+
+        &-container {
+            height: 46px;
+            display: flex;
+            align-items: center;
+        }
+
+        &-link {
+            color: #353535;
+            font-size: 14px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            transition: ease-out .3s;
+            gap: 8px;
+
+            svg {
+                fill: #353535;
+                transition: ease-out .3s;
+            }
+
+            &:hover {
+                color: #FAA500;
+
+                svg {
+                    fill: #FAA500;
+                }
+            }
+
+            &.minicart {
+                height: 46px;
+                width: 134px;
+                border: 1px solid #FAA500;
+                border-radius: 8px;
+                align-items: center;
+                justify-content: center;
+                transition: ease-out .3s;
+
+                &:hover {
+                    background: #353535;
+                }
+            }
+        }
+
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+
+    .nav {
+        box-shadow: 0px 4px 6px RGB(0 0 0 / 0.08);
+        &-list {
+            display: flex;
+            justify-content: center;
+            height: 48px;
+            gap: 105px;
+        }
+
+        &-link {
+            color: #353535;
+            transition: ease-out .3s;
+            font-size: 14px;
+        }
+
+        &-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                &:hover {
+                    color: #FAA500;
+                    font-weight: bold;
+            }
+            }
+        }
+
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+
+    &-mobile {
+        height: 88px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        justify-content: space-between;
+
+        .logo-mobile {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .menu-mobile {
+                width: 24px;
+                height: 2px;
+                display: block;
+                background: #000;
+                position: relative;
+
+                &:after {
+                    content: '';
+                    background: #000;
+                    width: 24px;
+                    height: 2px;
+                    position: absolute;
+                    bottom: -5px;
+                }
+                &:before {
+                    content: '';
+                    background: #000;
+                    width: 24px;
+                    height: 2px;
+                    position: absolute;
+                    top: -5px;
+                }
+            }
+        }
+
+        &-right {
+            display: flex;
+            gap: 40px;
+        }
+    }
+}
