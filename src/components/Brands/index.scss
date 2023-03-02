@@ -1,20 +1,21 @@
-.ruler {
+.brands {
 
     margin-top: 24px;
 
     &-title {
-        font-size: 16px;
+        font-size: 32px;
         font-weight: 700;
         text-align: center;
-        margin-bottom: 21px;
+        margin: 74px 0px 17px 0px;
     }
 
     &-container {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        max-width: 1480px;
+        gap: 16px;
         margin: 0 auto;
+        max-width: 1641px;
 
         @media (max-width:1024px){
             display: block;
@@ -22,13 +23,15 @@
     }
 
     &-content {
-        background: #EFEFEF;
-        border-radius: 4px;
-        padding: 16px 27px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         gap: 22px;
+        cursor: pointer;
+
+        &:hover {
+            opacity: .6;
+        }
     }
 
     &-subtitle {
