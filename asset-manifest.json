@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/desafio-maeztra/static/css/main.79c2f37c.css",
-    "main.js": "/desafio-maeztra/static/js/main.37e649d9.js",
-    "static/media/fullbanner.png": "/desafio-maeztra/static/media/fullbanner.a24111958088bb0144c5.png",
-    "static/media/collection-img.png": "/desafio-maeztra/static/media/collection-img.8970f1aa0f2083b81cbf.png",
-    "static/media/modalimg.jpg": "/desafio-maeztra/static/media/modalimg.73964bd27dd82a7e6463.jpg",
-    "static/media/fullbannermobile.png": "/desafio-maeztra/static/media/fullbannermobile.a86031c4255baf160ad1.png",
-    "static/media/shelf1.png": "/desafio-maeztra/static/media/shelf1.fe335105b69995834b5e.png",
-    "static/media/shelf2.png": "/desafio-maeztra/static/media/shelf2.6ee07929514058cb90ab.png",
-    "static/media/slick.svg": "/desafio-maeztra/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/desafio-maeztra/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/desafio-maeztra/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/desafio-maeztra/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/desafio-maeztra/index.html",
-    "main.79c2f37c.css.map": "/desafio-maeztra/static/css/main.79c2f37c.css.map",
-    "main.37e649d9.js.map": "/desafio-maeztra/static/js/main.37e649d9.js.map"
+    "main.css": "/desafio-maeztra/build/static/css/main.3758d4ed.css",
+    "main.js": "/desafio-maeztra/build/static/js/main.e0d921d4.js",
+    "static/media/fullbanner.png": "/desafio-maeztra/build/static/media/fullbanner.a24111958088bb0144c5.png",
+    "static/media/collection-img.png": "/desafio-maeztra/build/static/media/collection-img.8970f1aa0f2083b81cbf.png",
+    "static/media/modalimg.jpg": "/desafio-maeztra/build/static/media/modalimg.73964bd27dd82a7e6463.jpg",
+    "static/media/fullbannermobile.png": "/desafio-maeztra/build/static/media/fullbannermobile.a86031c4255baf160ad1.png",
+    "static/media/shelf1.png": "/desafio-maeztra/build/static/media/shelf1.fe335105b69995834b5e.png",
+    "static/media/shelf2.png": "/desafio-maeztra/build/static/media/shelf2.6ee07929514058cb90ab.png",
+    "static/media/slick.svg": "/desafio-maeztra/build/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/desafio-maeztra/build/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/desafio-maeztra/build/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/desafio-maeztra/build/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/desafio-maeztra/build/index.html",
+    "main.3758d4ed.css.map": "/desafio-maeztra/build/static/css/main.3758d4ed.css.map",
+    "main.e0d921d4.js.map": "/desafio-maeztra/build/static/js/main.e0d921d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.79c2f37c.css",
-    "static/js/main.37e649d9.js"
+    "static/css/main.3758d4ed.css",
+    "static/js/main.e0d921d4.js"
   ]
 }
