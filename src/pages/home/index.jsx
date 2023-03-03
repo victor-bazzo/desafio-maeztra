@@ -1,4 +1,5 @@
 import React from "react";
+
 import Header from "../../components/Header";
 import Banners from "../../components/Banners";
 import Ruler from "../../components/Ruler";
@@ -8,6 +9,7 @@ import Collection from "../../components/Collection";
 import Newsletter from "../../components/Newsletter";
 import Footer from "../../components/Footer";
 import ModalNews from "../../components/ModalNews";
+
 import './index.scss'
 
 function Home() {
