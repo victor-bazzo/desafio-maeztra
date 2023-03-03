@@ -14,10 +14,11 @@ function Ruler() {
   const settings = {
     dots: false,
     infinite: true,
+    arrows: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    centerPadding: "0px",
+    centerPadding: "20px",
     centerMode: true
   };
 
